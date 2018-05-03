@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 #include "Animal.h"
 
 using namespace std;
@@ -37,3 +38,11 @@ void Animal::set_species(string spec){
 string Animal::get_species(){
 	return species;
 }
+
+string Animal::describe(){
+	return species << " with " << number_of_legs << " legs";
+}
+
+
+
+
