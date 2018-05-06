@@ -40,7 +40,7 @@ string Animal::get_species(){
 }
 
 string Animal::describe(){
-	return species << " with " << number_of_legs << " legs";
+	return species + " with " + number_of_legs + " legs";
 }
 
 
